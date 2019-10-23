@@ -31,6 +31,7 @@ export default {
 <style lang="stylus" scoped>
     .wrapper >>> .swiper-pagination-bullet-active
         background:#fff
+        // 解决轮播图下抖动
     .wrapper
         width:100%
         height:0
