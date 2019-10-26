@@ -9,7 +9,10 @@
     </div>
     <div class="search-content" ref="search" v-show="keyword">
         <ul>
-            <li  class="search-item border-bottom" v-for="(item,index) in list" :key="index">{{item.name}}</li>
+            <li  class="search-item border-bottom"
+             v-for="(item,index) in list" 
+             :key="index"
+             @click="handleCity(item.name)">{{item.name}}</li>
             <li v-show="hasData">没有找到匹配数据</li>
         </ul>
     </div>
@@ -64,6 +67,12 @@ export default {
             return !this.list.length
         }
     },
+    methods:{
+       handleCity(city){
+      this.$store.dispatch('changeCity',city)
+      this.$router.push('/')
+    }
+    }
 
    
 }
