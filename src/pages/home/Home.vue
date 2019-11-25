@@ -26,7 +26,7 @@ export default {
   },
   data(){
     return{
-      latCity:'',
+      lastCity:'',
       swiperList:[],
       iconList:[],
       recommendList:[],
