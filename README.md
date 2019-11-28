@@ -1,6 +1,6 @@
 # travel
 
-> vue
+> Vue（vue2 +vue-router +vuex+ axios）全家桶
 
 ## Build Setup
 
