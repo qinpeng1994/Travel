@@ -1,4 +1,4 @@
-## 升级至 Vue CLI 4.3 版本后的项目
+## 升级至 Vue CLI 4.3及vue3.0 beta 版本后的项目
 
 ### 项目依赖安装
 ```
@@ -15,5 +15,4 @@ npm run serve
 npm run build
 ```
 
-### 自定义配置项
-参考 [配置项文档](https://cli.vuejs.org/config/).
+
