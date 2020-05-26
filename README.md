@@ -1,21 +1,19 @@
-# travel
+## 升级至 Vue CLI 4.3 版本后的项目
 
-> 技术栈：Vue（vue2 +vue-router +vuex+ axios）全家桶
-
-## Build Setup
-
-``` bash
-# install dependencies
+### 项目依赖安装
+```
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 本地开发
+```
+npm run serve
+```
+
+### 打包编译
+```
+npm run build
+```
+
+### 自定义配置项
+参考 [配置项文档](https://cli.vuejs.org/config/).
