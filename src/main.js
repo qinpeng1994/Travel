@@ -1,4 +1,4 @@
-import { createApp } from 'vue';
+import { createApp } from 'vue';  //3.0新增，按需引入
 import App from './App'
 import router from './router'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
